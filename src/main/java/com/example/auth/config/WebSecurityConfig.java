@@ -29,6 +29,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .oauth2Login(o -> o.successHandler((request, response, authentication) -> {
                     response.sendRedirect("/main");
                 }));
+        http.csrf().disable();
+
 
     }
 

@@ -1,15 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Chat</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<#--<!DOCTYPE html>-->
+<#--<html lang="en">-->
+<#--<head>-->
+<#--    <meta charset="UTF-8">-->
+<#--    <title>Chat</title>-->
+<#--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
+<#--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"-->
+<#--          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
+<#--</head>-->
 
-<body>
+<#--<body>-->
+<#import "parts/common.ftlh" as c>
+<@c.page>
 <section class="vh-100">
     <div class="container py-5 h-100">
         <div class="row d-flex align-items-center justify-content-center h-100">
@@ -44,5 +46,6 @@
         </div>
     </div>
 </section>
-</body>
-</html>
+</@c.page>
+<#--</body>-->
+<#--</html>-->

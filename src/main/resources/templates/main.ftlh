@@ -1,5 +1,6 @@
 <#import "parts/common.ftlh" as c>
-<#import "parts/logout.ftlh" as l>
+<#include "parts/navbar.ftlh">
+    <div class="container mt-5 ml-5">
 <@c.page>
     <#list messages as message>
         <div>
@@ -11,13 +12,11 @@
     <div>
         <form method="post">
             <input type="hidden" name="bro" value="bro"/>
-            <input type="hidden" name="_csrf" value="${_csrf.token}">
             <button style="background-color: blue; font-size: 35px" class="counter__btn" type="submit" id="bro">BRO!</button>
         </form>
 
         <form method="post">
             <input type="hidden" name="sis" value="sis"/>
-            <input type="hidden" name="_csrf" value="${_csrf.token}">
             <button style="background-color: blue; font-size: 35px" type="submit" id="sis">SIS!!!</button>
         </form>
     </div>

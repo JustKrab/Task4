@@ -2,17 +2,12 @@ package com.example.auth.entitys;
 
 import lombok.Getter;
 import lombok.Setter;
-import javax.persistence.*;
 import java.time.LocalTime;
 
 @Getter
 @Setter
-@Entity
 public class Message {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
     private String message;
     private LocalTime time=LocalTime.now();
     private String author;
@@ -29,6 +24,4 @@ public class Message {
         this.message = message;
     }
 
-    public Message() {
-    }
 }
