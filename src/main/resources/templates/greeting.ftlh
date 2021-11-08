@@ -23,7 +23,7 @@
                 <form>
                     <div class="divider d-flex align-items-center my-4">
                         <p class="text-center fw-bold  mb-0 text-muted" style="color: #3b5998;">This is my Task4
-                            ^_^.Please register with GitHub or Google</p>
+                            ^_^.Please register with social.</p>
                     </div>
 
                     <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998"
@@ -34,6 +34,11 @@
                     <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998"
                        href="/oauth2/authorization/google" role="button">
                         <i class="fab me-1 "></i>Registration with Goggle!
+                    </a>
+
+                    <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998"
+                       href="/oauth2/authorization/facebook" role="button">
+                        <i class="fab me-1 "></i>Registration with Facebook!
                     </a>
 
                     <div>
