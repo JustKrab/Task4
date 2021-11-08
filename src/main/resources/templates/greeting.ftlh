@@ -26,17 +26,17 @@
                             ^_^.Please register with social.</p>
                     </div>
 
-                    <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998"
+                    <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998; margin-top: 2%"
                        href="/oauth2/authorization/github" role="button">
                         <i class="fab me-2 "></i>Registration with Github!
                     </a>
 
-                    <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998"
+                    <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998; margin-top: 2%"
                        href="/oauth2/authorization/google" role="button">
                         <i class="fab me-1 "></i>Registration with Goggle!
                     </a>
 
-                    <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998"
+                    <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998; margin-top: 2%"
                        href="/oauth2/authorization/facebook" role="button">
                         <i class="fab me-1 "></i>Registration with Facebook!
                     </a>
