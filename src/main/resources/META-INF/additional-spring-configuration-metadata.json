@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "google.client.userAuthorizationUri",
+      "type": "java.lang.String",
+      "description": "Description for google.client.userAuthorizationUri."
+  }
+] }
