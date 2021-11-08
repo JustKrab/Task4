@@ -8,19 +8,17 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableOAuth2Client;
 
 
-
 @Configuration
 @EnableWebSecurity
 @EnableOAuth2Client
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 
-
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                .antMatchers("/", "/login","/logout").permitAll()
+                .antMatchers("/", "/login", "/logout").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .logout()
@@ -28,7 +26,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .logout(l -> l
                         .logoutSuccessUrl("/").permitAll())
-                .oauth2Login(o->o.successHandler((request,response,authentication) ->{ response.sendRedirect("/main");}));
+                .oauth2Login(o -> o.successHandler((request, response, authentication) -> {
+                    response.sendRedirect("/main");
+                }));
 
     }
 

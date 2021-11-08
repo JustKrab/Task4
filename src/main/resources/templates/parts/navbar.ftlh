@@ -9,7 +9,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav -nav mr-auto">
+        <ul class="navbar-nav -nav mr-auto" >
             <@l.logout/>
         </ul>
 

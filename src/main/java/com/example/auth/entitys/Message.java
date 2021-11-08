@@ -16,8 +16,7 @@ public class Message {
     private String message;
     private LocalTime time=LocalTime.now();
     private String author;
-    private Integer sisCounter=0;
-    private Integer broCounter=0;
+
 
 
     public String getAuthorName() {
